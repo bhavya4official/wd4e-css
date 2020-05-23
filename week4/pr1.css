@@ -1,0 +1,270 @@
+/*Intro to CSS3- Final Peoject*/
+/*Large screen size preferred (Desktop or laptop)*/
+/*Google or codepen preferred*/
+header{
+    background-color:#6bc2d5;
+    border-radius:15px;
+    background-image:-moz-linear-gradient (top, #00b7ea 0%, #02e4e6 100%);
+    background-image:-o-linear-gradient (to right, #00b7ea 0%, #02e4e6 100%);
+    background-image:-webkit-linear-gradient (to left, #00b7ea 0%, #02e4e6 100%);
+    background-image: linear-gradient(#0006f0 0%, #b20465 100%);
+    /*background-image:url('../images/flywheel.jpg');*/
+    background-image:url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    padding: 12px;
+}
+
+h1{
+    color: #f0f0f0;
+    background-color: #220faa;
+    background-image:linear-gradient(#0006f0 0%, #b20465 100%);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Serif, Arial, Cursive, Verdana;
+    font-size: 47px;
+}
+
+section{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color:#b3b3b3;
+    overflow: auto;
+    height: 803px;
+
+}
+
+p{
+    font-size:27px;
+}
+ul{
+    font-size: 27px;
+    line-height: 35px;
+    list-style-type: upper-roman;
+}
+
+.active{
+    background-color: #afafaf !important;
+    color: #0000a0 !important;
+
+}
+
+.left{
+    box-sizing: border-box;
+    display: inline-block;
+    clear: left;
+    background: rgba(100,0,200,0.5);
+    width:23%;
+    min-width: 125px;
+    height: 800px;
+    border: 5px double #ff00ff;
+    margin: 0 auto;
+    margin-top: 14px;
+
+}
+
+.right{
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    border-radius: 12px;
+    margin: 11px 4px 4px -1px;
+    background-color: rgba(220,235,255,0.6);
+    width: 76%;
+}
+
+body{
+    margin: 1%;
+    padding: 2px;
+    background-color: rgba(0,0,255,0.5)
+}
+
+h2{
+    color: #f0f0f0;
+    background-color: #a20165;
+    background-image:-webkit-radial-gradient(circle at top left, #0006f0 0%, #b20465 100%);
+    background-image:-moz-radial-gradient(circle at top left, #0006f0 0%, #b20465 100%);
+    background-image:-o-radial-gradient(circle at top left, #0006f0 0%, #b20465 100%);
+    background-image:radial-gradient(circle at top left, #0006f0 0%, #b20465 100%);
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+a{
+    background-color: rgba(187,177,255,.6) ;
+    color: #60000f;
+    text-align: center;
+    margin: 1% 3% 1% 0;
+    padding: 1% 1%;
+}
+a:link{
+    color: #1100ff;
+}
+a:hover{
+    color:#ff0000;
+    transition: .2s;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 26px;
+    font-style: italic;
+
+}
+a:visited{
+    color:#440006;
+    background-color:#0f00f0;
+}
+a:active{
+    color:#00ff00;
+    background-color: #ffff00;
+    line-height: 90%;
+
+}
+a:focus{
+    color:#ff0f00;
+    transition: .5s;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 26px;
+    font-style: italic;
+}
+
+nav a{
+    display: inline-block;
+    width: 22%;
+    height: 25px;
+    /*background-color: #afafaf;*/
+    color:#0000ff ;
+    font-size: 25px;
+    text-align: center;
+    border-radius:18px;
+    margin: 9px;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav a:link{
+    color: #ffffff;
+}
+nav a:hover, nav a:active{
+    color:#ff0000 !important;
+    background-color: #00ff00 !important;
+    transform:rotate(360deg);
+    /*transition:.6s;*/
+    border-radius: 250%;
+    width:25%;
+    height: 25%;
+    -webkit-transition: background-color 1.5s ease-in;
+    -moz-transition: background-color 1.5s ease-in;
+    -o-transition: background-color 1.5s ease-in;
+    /*transition: background-color 1.5s ease-in-out, border-radius .5s ease-in;*/
+    transition: width 2s, height 1s, transform 1s;
+}
+nav a:visited{
+    color:#ffffff;
+    background-color:#afafef;
+}
+nav a:focus{
+    color:#ff0f00;
+    background-color: #00ff00;
+    transform:rotate(360deg);
+    /*transition:.6s;*/
+    border-radius: 250%;
+    width:25%;
+    height: 25%;
+    -webkit-transition: background-color 1.5s ease-in;
+    -moz-transition: background-color 1.5s ease-in;
+    -o-transition: background-color 1.5s ease-in;
+    /*transition: background-color 1.5s ease-in-out, border-radius .5s ease-in;*/
+    transition: width 2s, height 1s, transform 1s;
+}
+
+
+img{
+    display: block;
+    border: 3px solid #000000;
+    margin: 0 auto;
+    clear:both;
+    width: 85%;
+    height: 185px;
+    margin-top: 25px;
+    margin-bottom:24px;
+
+}
+
+table{
+    box-sizing: border-box;
+    font-size:24px;
+    line-height: 39px;
+    font-family: Arial, Helvetica, 'Trebuchet MS';
+    width: 83%;
+    margin: 5% auto;
+    border-collapse: collapse;
+    border: 1px solid #bbb;
+    border-top: border-radius (50px 50px 0);
+    padding: 3px;
+    height: 33px;
+}
+th{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    -webkit-background-color: #dffffd;
+    -moz-background-color: #dffffd;
+    -o-background-color: #dffffd;
+    background-color: #1f9923;
+    -webkit-linear-gradient: (#dff000, #ff0000);
+    -moz-linear-gradient: (#dff000, #ff0000);
+    -o-linear-gradient: (#dff000, #ff0000);
+    background-image:linear-gradient(#1f2265 20%, #ff11ff 100%);
+    color: #ffffff;
+    border: #000000  solid 1px;
+    border-bottom: 4px solid #000000;
+    border-top: none;
+    font-family: sans-serif, cursive;
+
+}
+tr:first-child > th:first-child{
+    border-radius: 25px 0 0 0;
+    border-left: none;
+    /*text-align: left;*/
+
+}
+tr:first-child > th:last-child{
+    border-radius: 0 25px 0 0 ;
+    border-right: none;
+
+}
+tr{
+    opacity: .78;
+    text-align: center;
+    background-color: #ddffdd;
+}
+tr > th:first-child, tr > td:first-child{
+    text-align: left;
+    padding-left: 14px;
+}
+tr:hover{
+    opacity: 1;
+    background-color: #aaaaaa;
+    transition: .2s linear;
+}
+
+td{
+    border: #000000 solid 1px;
+    border-radius: 2px;
+    padding: 2px;
+    color: #101010;
+    font-style: Times, Helvetica, sans-serif;
+    background-color: #dedede;
+}
+/* Trial
+tr:last-child{
+    -webkit-border-radius:0 0 25px 25px;
+    border-radius:0 0 25px 25px;
+}
+tr:last-child>td:first-child{
+    -webkit-border-radius:0 0 0 25px;
+    border-radius:0 0 0 25px;
+}
+tr:last-child>td:last-child{
+    -webkit-border-radius: 0 0 25px 0;
+    border-radius: 0 0 25px 0;
+}*/
