@@ -1,2 +1,7 @@
 # wd4e-css
-Web Designing for Everybody - Introduction to CSS - Assignments
+
+Assignment of "Introduction to CSS3" course from coursera specilization "Web Development for everybody".
+
+Course URL:- https://www.coursera.org/learn/introcss
+
+(Note: In order to code work make sure to create a folder name "css" and store hw1.css file of any week. Also link this CSS file to all HTML files accordingly)
