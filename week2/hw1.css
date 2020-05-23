@@ -1,0 +1,73 @@
+/* For responsiveness I'm using % for setting sizes, Try resizing your browser */
+body{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+header{
+    background-color: #b0dbb0;
+    background-image: url('../images/flywheel.jpg');
+    background-size: 100%;
+    padding: 2%;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+nav a{		        /* Styling navigation link */
+    display: inline-block;
+    margin: .5%;
+    margin-left: 5%;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 1% 5%;
+    font-size: 2vw;         /* Relative to 2% of the height of the viewport or browser window */
+    color: #000;
+    background-color: #ccc5;
+}
+
+.active{
+    color: #080;
+    background-color: #fffc;
+}
+
+nav a:hover{        /* Highlight by cursor hover */
+    background-color: #0b05;
+}
+
+nav a:focus{        /* Highlight by tab button */
+    background-color: #0b05;
+}
+
+.left{		        /* Aside tag class */
+    float: left;
+    width: 20%;
+    padding: 2%;
+    height: 100vh;
+    background-color: #770;
+    text-align: center;
+}
+
+.left img{        /* Left sided images */
+    border: 3px solid #020;
+    width: 17vw; /*60%*/
+    margin: 8% 2%;
+}
+
+.right{
+    background-color: #fff4;
+    margin-left: 22%;
+    padding: 2.5%;
+    font-size: 1.4vw;
+}
+
+h2{
+    display: inline;
+    color: #330066;
+    text-transform: uppercase;
+}
+
+/* Thank you for reviewing, I hope color different choices should not be the problem */
