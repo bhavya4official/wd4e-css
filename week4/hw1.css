@@ -3,8 +3,7 @@
 table{
     width: 60%;
     height: 20px;
-    margin-left: 33%;
-    margin-top: 4%;
+    margin: 0 auto;
     vertical-align: middle;
 }
 
@@ -67,8 +66,7 @@ td:hover{
 
 th:hover{
     text-shadow: 2px 2px 5px #dd0000;
-    transform: scale(1,1.2);            /* According to "Can I  Use" 98.17% Global devices support 2D transforms */
-    transform: translateY(-10px)
+    transform: translateY(-15%)     /* According to "Can I  Use" 98.17% Global devices support 2D transforms */
 }
 
 
