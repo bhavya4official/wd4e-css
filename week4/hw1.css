@@ -87,11 +87,11 @@ h1{
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    font-size: 3vw;         /* Relative to 3% of the width of the viewport or browser window */
 }
 
 nav a{		        /* Styling navigation link */
     display: inline-block;
-    margin: .5%;
     margin-left: 5%;
     border-radius: 5px;
     text-decoration: none;
