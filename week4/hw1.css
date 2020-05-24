@@ -132,9 +132,14 @@ nav a:focus{        /* Highlight by tab button */
 }
 
 .right{
-    background-color: #fff4;
+/*     background-color: #bd06; */
+    background-image: linear-gradient(#bd07, #fff);
     padding-left: 2.5%;
     font-size: 1.4vw;
+}
+
+.right ul{
+    margin-left: 25%;
 }
 
 h2{
