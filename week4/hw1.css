@@ -87,7 +87,7 @@ h1{
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 3vw;         /* Relative to 3% of the width of the viewport or browser window */
+    font-size: 2.5vw;         /* Relative to 3% of the width of the viewport or browser window */
 }
 
 nav a{		        /* Styling navigation link */
