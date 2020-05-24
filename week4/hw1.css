@@ -9,7 +9,7 @@ table{
 }
 
 th{
-    border-bottom: 4px solid #004400;
+    border-bottom: .2em solid #004400;
     border-radius: 8px 8px 0 0;
     background-image: linear-gradient(#ffff00, #208a20);    /* According to "Can I use", most browssesr (95.39%) support unprefixed linear-gradient of Jun */
     color: #ffffff;
@@ -134,7 +134,7 @@ nav a:focus{        /* Highlight by tab button */
 .right{
 /*     background-color: #bd06; */
     background-image: linear-gradient(#bd07, #fff);
-    padding-left: 2.5%;
+    padding: 2.5%;
     font-size: 1.4vw;
 }
 
