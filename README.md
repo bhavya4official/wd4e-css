@@ -1,6 +1,6 @@
 # wd4e-css
 
-Assignment of "Introduction to CSS3" course from coursera specilization "Web Design for everybody".
+## Assignment of "Introduction to CSS3" course from coursera specilization "Web Design for everybody".
 
 Course offered by: **University of Michigan**
 
